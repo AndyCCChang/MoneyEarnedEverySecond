@@ -1,0 +1,30 @@
+{
+  "name": "money-earned-every-second",
+  "version": "1.0.0",
+  "description": "A fun web app that shows how much money you earn every second with interactive coin collection",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "money",
+    "earnings",
+    "coins",
+    "animation",
+    "web-app",
+    "interactive",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/money-earned-every-second.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/money-earned-every-second/issues"
+  },
+  "homepage": "https://github.com/yourusername/money-earned-every-second#readme"
+}
