@@ -200,11 +200,11 @@ class MoneyEarningApp {
         
         notification.innerHTML = `
             <div style="font-size: 3rem; margin-bottom: 1rem;">🎉</div>
-            <div style="font-size: 1.5rem; margin-bottom: 0.5rem; font-weight: 800;">Collected All</div>
+            <div style="font-size: 1.5rem; margin-bottom: 0.5rem; font-weight: 800;">Collected</div>
             <div style="font-size: 2rem; margin-bottom: 1rem; font-family: 'SF Mono', monospace; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">${this.formatMoney(bonus)}</div>
             <div style="font-size: 1rem; opacity: 0.9; margin-top: 0.5rem; line-height: 1.4;">
-                ${coinCount} bills collected this round<br>
-                <strong>Total: ${this.totalCoinsCollected.toLocaleString()} bills</strong>
+                ${coinCount} collections this round<br>
+                <strong>Total: ${this.totalCoinsCollected.toLocaleString()} collections</strong>
             </div>
         `;
         
@@ -397,9 +397,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <div style="display: flex; align-items: center; gap: 0.5rem;">
             <span style="font-size: 1.2rem;">⌨️</span>
             <div>
-                <div style="font-weight: 600; margin-bottom: 0.25rem;">Keyboard Shortcuts</div>
+                <div style="font-weight: 600; margin-bottom: 0.25rem;">Shortcuts</div>
                 <div style="font-size: 0.75rem; opacity: 0.8;">
-                    <strong>Space:</strong> Collect Money | <strong>R:</strong> Update Rate
+                    <strong>Space:</strong> Collect | <strong>R:</strong> Update
                 </div>
             </div>
         </div>
